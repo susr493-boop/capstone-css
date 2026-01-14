@@ -27,6 +27,15 @@ p{
             text-decoration: line-through;
         }
 
-.section{
+.content{
     text-align: left;
+}
+
+.header{
+    background-color: black;
+    text-align: center;
+}
+
+.foot{
+    background-color: black;
 }
