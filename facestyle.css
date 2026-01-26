@@ -14,6 +14,7 @@ body{
     height: 200px;
     width:200px;
     background: white;
+    margin-left:0px;
     position:absolute;
     top:100px;
     left:50px;
@@ -41,11 +42,11 @@ body{
 #mouth{
     background-color:black;
     height:175px;
-    width:350px;
-    padding:10px;
+    width:375px;
+    margin:0px;
     position:absolute;
     top:400px;
-    left: 200px;
+    left: 50px;
 }
 
 
@@ -53,6 +54,7 @@ body{
     background:white;
     height:30px;
     width:30px;
+    margin:5px;
     position:relative;
     left:50px;
 }
