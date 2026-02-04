@@ -6,31 +6,53 @@
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   </head>
-  <body>
+  <body class="p-3 text-primary-emphasis bg-primary-subtle">
     <div>
     <h1 class="text-danger">LOST JAR</h1>
     <p class="display-1">please help me find me jar</p>
     </div>
-    <div id="carouselExample" class="carousel slide">
+    <div id="carouselExample" class="carousel slide border border-secondary-subtle rounded-3">
   <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="https://www.ikea.com/us/en/images/products/korken-jar-with-lid-clear-glass__0713741_pe729737_s5.jpg" class="d-block w-100" alt="...">
+    <div style="width:400px; height: 400px;" class="carousel-item active">
+      <img  src="https://www.ikea.com/us/en/images/products/korken-jar-with-lid-clear-glass__0713741_pe729737_s5.jpg" class="d-block w-100" alt="...">
     </div>
-    <div class="carousel-item">
-      <img src="https://cdn.shoplightspeed.com/shops/633447/files/43069885/1500x4000x3/1-liter-fido-glass-storage-jar.jpg?odnHeight=117&odnWidth=117&odnBg=FFFFFF" class="d-block w-100" alt="...">
+    <div style="width:400px; height: 400px;" class="carousel-item">
+      <img   src="https://cdn.shoplightspeed.com/shops/633447/files/43069885/1500x4000x3/1-liter-fido-glass-storage-jar.jpg?odnHeight=117&odnWidth=117&odnBg=FFFFFF" class="d-block w-100" alt="...">
     </div>
-    <div class="carousel-item">
-      <img src="https://cdn11.bigcommerce.com/s-xizoo/images/stencil/1280x1280/products/566/4025/ECO12S__02987.1727291236.jpg?c=2" class="d-block w-100" alt="...">
+    <div style="width:400px; height: 400px;" class="carousel-item">
+      <img  src="https://cdn11.bigcommerce.com/s-xizoo/images/stencil/1280x1280/products/566/4025/ECO12S__02987.1727291236.jpg?c=2" class="d-block w-100" alt="...">
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+  <button style="width:auto; height: auto;" class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
   </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+  <button style="width:auto; height: auto;" class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
+</div>
+<!--button stuff-->
+<button type="button" class="btn btn-primary">Primary</button>
+<button type="button" class="btn btn-secondary">Secondary</button>
+<div>
+<div>
+  <form>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form></div>
 </div>
 
 
